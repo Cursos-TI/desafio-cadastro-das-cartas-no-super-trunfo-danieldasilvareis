@@ -1,22 +1,23 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
-
 int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    char estado1, estado2;                 //Variáveis para Estados representados apenas por uma letra.
+    char codigocarta1[4], codigocarta2[4]; //Variáveis para os códigos das cartas com 3 digitos.
+    char nomecidade1[30], nomecidade2[30]; //Variáveis para os nomes das cidades.
+    int populacao1, populacao2, pontotur1, pontotur2; //Variaveis para quantidade de população e pontos turísticos da cidades.
+    float area1, area2, pib1, pib2;                   //Variáveis para area (em km2) e PIB da cidade.
 
+        printf("SEJAM BEM VINDOS AO SUPER TRUNFO PAÍSES!\n");           //Apresenta o início do jogo.
+        
+        printf("\nJogador 1, insira os dados de sua carta:\n");         //Solicita ao Jogador 1 que insira os dados de sua carta.
+        printf("Insira o Estado (represente por letras de 'A' a 'H'):\n") //Solicita o codigo do estado da carta do Jogador 1.
+        scanf("%c", &estado1);                                          //Armazena o nome do estado da carta do Jogador 1.
+        printf("Insira o código da carta, iniciando pela letra do estado (Ex:A01, B02): \n"); //Solicita o código da carta do Jogador 1.
+        scanf("%s", nomecidade1);                                      //Armazena o codigo da carta do Jogador 1.
+        printf("Insira do nome da cidade: \n");
+        scanf("%s", nomecidade1);
+        printf("Insira o número de habitantes da cidade: \n");
+        
     return 0;
 }
