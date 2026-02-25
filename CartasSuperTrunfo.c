@@ -45,7 +45,7 @@ int main() {
         scanf("%d", &pontotur2);                                            //Armazena quantidade de pontos turisticos da cidade do Jogador 2.
 
         printf("\n\nSUPER TRUNFO PAÍSES!\n\n");
-        printf("========================================\n");
+        printf("========================================\n");               //Mostra os dados inseridos pleo Jogador 1
         printf("DADOS DA CARTA DO JOGADOR 1:\n");
         printf("Estado: %c \n", estado1);
         printf("Codigo da carta: %s \n", codigocarta1);
@@ -57,7 +57,7 @@ int main() {
         printf("========================================\n\n");
 
         printf("========================================\n");
-        printf("DADOS DA CARTA DO JOGADOR 2:\n");
+        printf("DADOS DA CARTA DO JOGADOR 2:\n");                       //Mostra os dados inseridos pelo Jogador 2
         printf("Estado: %c \n", estado2);
         printf("Codigo da carta: %s \n", codigocarta2);
         printf("Nome da Cidade: %s \n", nomecidade2);
