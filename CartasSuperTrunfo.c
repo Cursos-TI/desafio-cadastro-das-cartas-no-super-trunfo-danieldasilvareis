@@ -14,10 +14,18 @@ int main() {
         printf("Insira o Estado (represente por letras de 'A' a 'H'):\n") //Solicita o codigo do estado da carta do Jogador 1.
         scanf("%c", &estado1);                                          //Armazena o nome do estado da carta do Jogador 1.
         printf("Insira o código da carta, iniciando pela letra do estado (Ex:A01, B02): \n"); //Solicita o código da carta do Jogador 1.
-        scanf("%s", nomecidade1);                                      //Armazena o codigo da carta do Jogador 1.
-        printf("Insira do nome da cidade: \n");
-        scanf("%s", nomecidade1);
-        printf("Insira o número de habitantes da cidade: \n");
+        scanf("%s", &codigocarta1);                                      //Armazena o codigo da carta do Jogador 1.
+        printf("Insira do nome da cidade: \n");                        //Solicita o nome da cidade do Jogador 1.
+        scanf("%s", &nomecidade1);                                      //Armazena o nome da cidade do Jogador 1.
+        printf("Insira o número de habitantes da cidade: \n");         //Solicita a quantidade de habitantes da cidade do Jogador 1.
+        scanf("%d", &populacao1);                                      //Armazena a quantidade de habitantes da cidade do Jogador 1.
+        printf("Insira a area (em km2) da cidade: \n");                //Solicita a area da cidade do Jogador 1.
+        scnaf("%f", &area1);                                           //Armazena a area da cidade do Jogador 1.
+        printf("Insira o PIB da cidade: \n");                          //Solicita o PIB da cidade do Jogador 1.
+        scanf("%f", &pib1);                                            //Armazena o PIB da cidade do Jogador 1.
+        printf("Insira a quantidade de pontos turísticos da cidade: \n");
+        scanf("%d", &pontotur1);
         
+
     return 0;
 }
